@@ -1,0 +1,47 @@
+.progressBarCard {
+  width: 200px;
+  border-radius: 10px;
+  background: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 16px 16px 38px 16px;
+
+  .progressText {
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    margin-bottom: 44px;
+    text-align: start;
+  }
+  .percentage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    z-index: 1;
+  }
+
+  .progressChange {
+    margin-top: 16px;
+    color: #6ed29c;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    bottom: 8px;
+    left: 50%;
+  }
+  .progressChangeRed {
+    margin-top: 16px;
+    color: #ff3b6b;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    bottom: 8px;
+    left: 50%;
+  }
+}

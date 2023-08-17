@@ -1,0 +1,138 @@
+.container {
+  width: 100%;
+  margin-top: 50px;
+  padding: 48px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background: #fff;
+  box-shadow: 0px 6px 14px 0px rgba(0, 0, 0, 0.08);
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    .insightWrapper {
+      flex-direction: column;
+      .insightIcon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 64px;
+        height: 64px;
+        border-radius: 10px;
+        background: #111;
+        .icon {
+          width: 32px;
+        }
+      }
+      .text {
+        margin-top: 24px;
+        color: #333;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 26px;
+      }
+    }
+
+    .safeAndSecureIcon {
+      display: flex;
+      align-items: center;
+      padding: 8px 12px;
+      border-radius: 10px;
+      background: rgba(110, 210, 156, 0.1);
+      .icon {
+        width: 12px;
+        margin-right: 4px;
+      }
+      .text {
+        color: #666;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: -0.5px;
+      }
+    }
+  }
+
+  .meetingStatus {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 32px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    background: #fff;
+
+    .meetingDetails {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      .text {
+        color: #333;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+      }
+
+      .number {
+        margin-top: 8px;
+        color: #111;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: normal;
+      }
+    }
+  }
+
+  .meetingSentiment {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    background: #fff;
+    margin-top: 24px;
+
+    .text {
+      color: #333;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+      margin-bottom: 32px;
+    }
+
+    .sentimentWrapper {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      gap: 56px;
+      width: 100%;
+      .sentimentAnalysis {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .percentage {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size: 32px;
+          font-weight: bold;
+          color: #333;
+          z-index: 1;
+        }
+        .sentimentText {
+          margin-top: 8px;
+          color: #333;
+          text-align: center;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 22px;
+        }
+      }
+    }
+  }
+}

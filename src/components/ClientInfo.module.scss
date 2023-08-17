@@ -1,0 +1,57 @@
+.ClientInfoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 40px;
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    .CompanyLogo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      border: 2px solid rgba(0, 0, 0, 0.1);
+      background: #ffffff;
+      box-shadow: 0px 4px 8px 0px rgba(22, 16, 91, 0.05);
+      margin-right: 16px;
+
+      .icon {
+        width: 26px;
+      }
+    }
+    .companyName {
+      color: #333;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 26px;
+      text-transform: uppercase;
+    }
+  }
+
+  .ClientInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 40px 0;
+    .clientName {
+      color: #333;
+      font-size: 56px;
+      font-weight: 500;
+      line-height: 62px;
+    }
+
+    .clientStatus {
+      margin-top: 8px;
+      color: #888;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 22px;
+    }
+  }
+}
